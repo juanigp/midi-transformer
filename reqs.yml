@@ -1,0 +1,43 @@
+name: midi-env
+channels:
+  - anaconda
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  # - nomkl
+  - pytorch::pytorch=1.11.0
+  - datasets
+  - huggingface_hub=0.2.1
+  - python=3.8.13
+  - tokenizers
+  - transformers=4.19.2
+  - pip
+  - pip:
+    - miditok==1.1.11
+    - miditoolkit==0.1.16
+    - notebook==6.4.11
+    - hydra-core
+    - hydra-zen
+    - sklearn
+    - autopep8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prefix: /Users/juanigp/anaconda3/envs/midi-env

@@ -1,0 +1,7 @@
+outputs
+tmp_trainer
+.ipynb_checkpoints
+cache
+.DS_Store
+_.DS_Store
+__pycache__
