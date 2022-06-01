@@ -2,7 +2,7 @@
 #SBATCH --mem=200G
 #SBATCH --cpus-per-task=64
 #SBATCH --time=5-12:00:00
-#SBATCH --output=../sbatch-out/train_%j.txt
+#SBATCH --output=./sbatch-out/train_%j.txt
 #SBATCH --job-name=train-midi-transformer
 #SBATCH --gres=gpu:1
 #SBATCH --nodelist=ada00
