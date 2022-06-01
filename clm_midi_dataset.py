@@ -68,7 +68,7 @@ def main(cfg):
 
     dataset = dataset.map(
         map_func,
-        num_proc=8,
+        num_proc=60,
         load_from_cache_file=True,
         # cache_file_name='./cache/tokenized_dataset',
         # batched=True,
@@ -78,7 +78,7 @@ def main(cfg):
 
     dataset = dataset.map(
         lambda x: group_seqs(x, obj.block_size),
-        num_proc=8,
+        num_proc=60,
         batched=True,
         load_from_cache_file=True,
         # cache_file_name='./cache/preprocessed_dataset'
