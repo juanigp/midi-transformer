@@ -1,8 +1,8 @@
 tokenizer:
   _target_: miditok.REMI
 model_name: sshleifer/tiny-gpt2
-csv_dir: /Users/juanigp/Desktop/data/e-gmd-v1.0.0/e-gmd-v1.0.0.csv
-data_root: /Users/juanigp/Desktop/data/e-gmd-v1.0.0/
+csv_dir: /data/jpisula/data/e-gmd-v1.0.0/e-gmd-v1.0.0.csv
+data_root: /data/jpisula/data/e-gmd-v1.0.0/
 max_train_samples: null #100
 max_test_samples: null #10
 block_size: 1024
@@ -10,4 +10,4 @@ train_args:
   output_dir: tmp_trainer
   num_train_epochs: 50
   do_train: True
-  do_eval: False
+  do_eval: True

@@ -10,10 +10,11 @@ dependencies:
   - datasets
   - huggingface_hub=0.2.1
   - python=3.8.13
-  - tokenizers
-  - transformers=4.19.2
   - pip
   - pip:
+    - matplotlib
+    - transformers==4.19.2
+    - tokenizers
     - miditok==1.1.11
     - miditoolkit==0.1.16
     - notebook==6.4.11
